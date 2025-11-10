@@ -1,0 +1,36 @@
+body {
+    background: url(photo/background.jpg);
+    color: #fff;
+    font-family: "Cairo", sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.countdown {
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+}
+
+.countdown div {
+    background: #111;
+    padding: 15px 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #0ff;
+}
+
+.label {
+    display: block;
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 5px;
+}
